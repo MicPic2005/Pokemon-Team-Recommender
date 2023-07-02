@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  padding-bottom: 10%;
+  background-image: url("https://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/a9a51bc0b8d626db493ab5f9a971b043/background-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.title{
+  font-size: 30px;
+  background-color: #C04C4B;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.pokemon-looks, .pokemon-type {
+  background-color: #F0DBA5;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.results {
+  display: none;
+  background-image: url("https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-Transparent.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 250px;
+}
+
+img {
+  width: 250px;
+}
+
+/* button css */
+button {
+  background-color: #C04C4B;
+  border: 3px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+button:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+button:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+button:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
